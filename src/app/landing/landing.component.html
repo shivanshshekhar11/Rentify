@@ -1,0 +1,223 @@
+<div class="relative">
+  <header class="absolute inset-x-0 top-0 z-10 w-full">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <div class="flex-shrink-0"></div>
+
+        <button
+          type="button"
+          class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+        >
+          <!-- Menu open: "hidden", Menu closed: "block" -->
+          <svg
+            class="block w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+
+          <!-- Menu open: "block", Menu closed: "hidden" -->
+          <svg
+            class="hidden w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </button>
+
+        <div
+          class="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10"
+        >
+          <a
+            href="#"
+            title=""
+            class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold transition-all duration-200 rounded-full bg-orange-500 text-white hover:bg-orange-600 focus:bg-orange-600"
+            routerLink="signup"
+          >
+            Sign Up
+          </a>
+
+          <a
+            href="#"
+            title=""
+            class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold transition-all duration-200 rounded-full bg-orange-500 text-white hover:bg-orange-600 focus:bg-orange-600"
+            role="button"
+            routerLink="login"
+          >
+            Log In
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-yellow-50 overflow-hidden">
+    <div class="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[800px]">
+      <div
+        class="relative flex items-center justify-center w-full lg:order-2 lg:w-7/12"
+      >
+        <div class="absolute bottom-0 right-0 hidden lg:block">
+          <img
+            class="object-contain w-auto h-48"
+            src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/curved-lines.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-24 2xl:px-32 lg:py-24 lg:text-left"
+        >
+          <h1 class="text-4xl font-bold text-black sm:text-6xl xl:text-8xl">
+            Rentify
+          </h1>
+          <p class="mt-8 text-xl text-black">
+            We help owners to find correct tenats and also help tenats to find
+            the correct house based on thier key requirements.
+          </p>
+
+          <form
+            action="#"
+            method="POST"
+            class="max-w-xl mx-auto mt-8 bg-white lg:mx-0 sm:bg-transparent lg:mt-12 rounded-xl"
+          >
+            <div
+              class="p-4 sm:p-2 sm:bg-white sm:border-2 sm:border-transparent sm:rounded-full sm:focus-within:border-orange-500 sm:focus-within:ring-1 sm:focus-within:ring-orange-500"
+            >
+              <div class="flex flex-col items-start sm:flex-row">
+                <div class="flex-1 w-full min-w-0">
+                  <div
+                    class="relative text-gray-400 focus-within:text-gray-600"
+                  >
+                    <label for="phone" class="sr-only"></label>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Enter your contact to get a call from us"
+                      class="block w-full px-4 py-4 text-base text-center text-black placeholder-gray-500 transition-all duration-200 border-transparent rounded-full sm:text-left focus:border-transparent focus:ring-0 caret-orange-500"
+                      required=""
+                    />
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-orange-500 border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0 hover:bg-orange-600 focus:bg-orange-600"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12"
+      >
+        <div class="absolute inset-0">
+          <img
+            class="object-cover w-full h-full scale-150"
+            src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"
+        ></div>
+
+        <div class="absolute bottom-0 left-0">
+          <div class="p-4 sm:p-6 lg:p-8">
+            <div class="flex items-center">
+              <svg
+                class="w-10 h-10 text-orange-500"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h2 class="font-bold text-white text-7xl ml-2.5">4.5</h2>
+            </div>
+            <p class="max-w-xs mt-1.5 text-xl text-white">
+              Rating on Play Store
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+        Trusted by both Sellers and Buyers
+      </h2>
+
+      <p class="mt-4 text-gray-500 sm:text-xl">
+        Our platform is trusted by a large number of sellers and buyers. Our
+        policies on enforcing authenticated listings and refunds have made
+        Rentify a safe and trusted destination for all your real estate needs.
+      </p>
+    </div>
+
+    <div class="mt-8 sm:mt-12">
+      <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Total Sales
+          </dt>
+
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
+            1 Cr+
+          </dd>
+        </div>
+
+        <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Registered Sellers
+          </dt>
+
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
+            100+
+          </dd>
+        </div>
+
+        <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
+          <dt class="order-last text-lg font-medium text-gray-500">
+            Happy Buyers
+          </dt>
+
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
+            5000+
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
